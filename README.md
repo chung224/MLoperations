@@ -7,6 +7,16 @@
 
 Installing Docker is straightforward for Linux and Mac users but might be more challenging for Windows users. If you use Windows we recommend you stick with the first method to run this ungraded lab. However if you want to go through with this method you will need to install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/) and [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Windows Subsystem for Linux 2). By doing this you will enable a real Linux kernel inside your Windows OS and will get full usage out of Docker. For a better experience we also recommend to install the [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701). This is a great setup to do machine learning related work on Windows but it requires a lot more setup.
  
+ To clone the repo needed for this docker example, use this command:
+```bash
+git clone https://github.com/https-deeplearning-ai/MLEP-public.git
+```
+
+or for cloning via SSH use:
+```bash
+git clone git@github.com:https-deeplearning-ai/MLEP-public.git
+```
+ 
 ### 1. Pulling the image from Docker hub
 
 Images are an important concept within the Docker ecosystem. You can think of them as the compilation of all the elements (libraries, files, etc) needed for your software to run. 
